@@ -6,6 +6,11 @@ public class Main {
         m.ToString();
         s.ToString();
         s.GetMass();
+        Material f=new Material("fluff",4.3);
+        Subject p=new Subject("plush",m,0.3);
+        f.ToString();
+        p.ToString();
+        p.GetMass();
 
     }
 }
